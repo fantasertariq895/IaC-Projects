@@ -1,0 +1,19 @@
+# Terraform build & state files
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Crash logs & overrides
+crash.log
+*.override.tf
+*.override.tf.json
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform/
