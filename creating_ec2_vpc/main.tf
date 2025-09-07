@@ -27,6 +27,7 @@ module "vpc" {
   enable_dns_hostnames = true
 }
 
+/*
 
 resource "aws_instance" "app_server" {
   ami           = data.aws_ami.ubuntu.id
@@ -40,3 +41,4 @@ resource "aws_instance" "app_server" {
   }
 }
 
+*/
